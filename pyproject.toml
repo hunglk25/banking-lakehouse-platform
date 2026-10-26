@@ -1,0 +1,6 @@
+[project]
+name = "banking-lakehouse"
+version = "0.1.0"
+description = "Banking lakehouse: CDC, Iceberg, fraud detection, Customer 360"
+requires-python = ">=3.10"
+dependencies = []

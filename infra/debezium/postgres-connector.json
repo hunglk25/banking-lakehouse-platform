@@ -1,0 +1,16 @@
+{
+  "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  "plugin.name": "pgoutput",
+  "database.hostname": "postgres",
+  "database.port": "5432",
+  "database.user": "bank",
+  "database.password": "bank",
+  "database.dbname": "bank",
+  "topic.prefix": "bank",
+  "table.include.list": "public.accounts,public.transactions",
+  "publication.autocreate.mode": "filtered",
+  "slot.name": "bank_slot",
+  "snapshot.mode": "initial",
+  "decimal.handling.mode": "string",
+  "tombstones.on.delete": "false"
+}
